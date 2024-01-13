@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background:#888;
+	
+}
+
+.mainwrapper{
+	width:80%;
+	min-height:700px;
+	max-height:1500px;
+	height:1000px;
+	background:#eee;
+	margin: 0 auto;
+}
+.titlediv{
+	width:100%;
+	height:180px;
+	background:#333;
+	
+}
+
+#title{
+	display:inline-block;
+	color:white;
+	font-weight:bold;
+	background:inherit;
+	float:right;
+	font-size:70px;
+	margin-top:60px;
+	margin-right:150px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-style:oblique;
+}
+
+
+
+#titleimg{
+	width:150px;
+	height:150px;
+	border-radius:100px;
+	margin-top:15px;
+	margin-left:80px;
+	display:inline-block;
+	
+}
+
+.header{
+	width:100%;
+	background:yellow;
+	padding: 10px 16px;
+	text-align:center;
+	height:70px;
+	
+}
+
+
+ .header a{
+	margin-left:70px;
+	margin-top:15px;
+	display:inline-block;
+	text-decoration:none;
+	color:#000;
+	background:yellow;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+   width:inherit;
+    max-width:inherit;
+	height:50px;
+	padding:10px 16px;
+	
+}
+
+.sticky a{
+ 
+	margin-left:60px;
+	display:inline-block;
+	text-decoration:none;
+	color:#000;
+	background:yellow;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:0px;
+}
+
+
+
+
+
+
+.content{
+  padding: 16px;
+  width:100%;
+  background:#ccc;
+  margin:0 auto;
+  text-align:justify;
+  min-height:700px;
+  
+}
+
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.footer{
+	position:relative;
+	width:100%;
+	height:200px;
+	margin-bottom:0;
+	background:#333;
+}
+
+h3, p{
+	background:#cccc;
+}
+
+
+
+
+
+

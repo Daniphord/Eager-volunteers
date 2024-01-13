@@ -1,0 +1,217 @@
+.cover {
+    background-image: url('../img/cover.jpg'); /* Downloaded from: MARIOLA GROBELSKA Author: Ben Koorengevel */
+    background-position:center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.articles {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #c8e5ffda;
+    min-height: 25vh;
+    padding: 64px;
+    width: 80vw;
+    margin: 144px auto;
+}
+
+.articles__header {
+    line-height:96px;
+    color: #000000;
+    font-size: 56px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.articles__subsection {
+    display: grid;
+    grid-template-columns: 30% 70%;  
+    align-items: center;
+    background-color: #8fc3ff93;
+}
+.articles__wall {
+    padding: 0 32px;
+}
+
+.articles__pic {
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.articles__paragraph {
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 24px;
+    line-height: 36px;
+    text-align:justify;
+    padding: 32px;
+}
+
+.articles__paragraph--date {
+    color:#0059ff;
+}
+
+.articles__link-paragraph {
+    text-align: right;
+    font-size: 32px;
+    padding: 16px 32px;
+}
+
+.articles__link {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(218, 98, 0);
+}
+
+.articles__link:hover {
+    color:#0077ff;
+}
+
+/*Mobile-small*/
+@media (max-width: 639px) {
+    .articles {
+        padding: 8px;
+        width: 100vw;
+    }
+    .articles__header {
+        line-height:32px;
+        color: #000000;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .articles__paragraph {
+        color: rgb(0, 0, 0);
+        text-transform:none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align:justify;
+        padding: 8px;
+    }
+
+    .articles__paragraph--date {
+        font-size: 14px;
+        font-style: italic;
+        padding: 0;
+        line-height: 20px;
+        color:#0059ff;
+    }
+
+    .articles__subsection {
+        display: grid;
+        grid-template-columns: 1fr;  
+        align-items: center;
+        background-color: #8fc3ff93;
+    }
+
+    .articles__wall {
+        display: grid;
+        justify-items: center;
+        padding: 8px;
+    }
+
+    .articles__pic {
+        width: 50%;
+        padding: 0;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+}
+
+/*Mobile*/
+@media (min-width: 640px) and (max-width: 1023px) {
+    .articles {
+        padding: 8px;
+        width: 100vw;
+    }
+    .articles__header {
+        line-height:64px;
+        color: #000000;
+        font-size: 32px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .articles__paragraph {
+        color: rgb(0, 0, 0);
+        text-transform: none;
+        font-size: 20px;
+        line-height: 28px;
+        text-align:justify;
+        padding: 16px;
+    }
+
+    .articles__paragraph--date {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .articles__subsection {
+        display: grid;
+        grid-template-columns: 1fr;  
+        align-items: center;
+        background-color: #8fc3ff93;
+    }
+
+    .articles__wall {
+        display: grid;
+        justify-items: center;
+    }
+
+    .articles__pic {
+        width: 50%;
+        padding: 0;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+}
+
+/*HD*/
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .articles__paragraph {
+        color: rgb(0, 0, 0);
+        text-transform: none;
+        font-size: 24px;
+        line-height: 32px;
+        text-align:justify;
+        padding: 32px;
+    }
+
+    .articles__subsection {
+        display: grid;
+        grid-template-columns: 1fr;  
+        align-items: center;
+        background-color: #8fc3ff93;
+    }
+
+    .articles__wall {
+        display: grid;
+        justify-items: center;
+    }
+
+    .articles__pic {
+        width: 50%;
+        padding: 0;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+}
+
+/*2K-3K, 4K*/
+@media (min-width: 2560px) {
+    .cover {
+        padding: 0 300px;
+    }
+
+    .articles__paragraph {
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 48px;
+        text-align:justify;
+        padding: 32px;
+    }
+}

@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^eagervolunteers\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.eagervolunteers\.com$
+RewriteRule ^/?$ "https\:\/\/www\.eagervolunteers\.com\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp gallery.html $DEPLOYPATH
+    - /bin/cp areas.html $DEPLOYPATH
+    - /bin/cp articles.html $DEPLOYPATH
+    - /bin/cp partners.html $DEPLOYPATH
+    - /bin/cp programs.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp normalize.css $DEPLOYPATH
+    - /bin/cp slider.css $DEPLOYPATH
+    - /bin/cp style_areas.css $DEPLOYPATH
+    - /bin/cp style_articles.css $DEPLOYPATH
+    - /bin/cp style_partners.css $DEPLOYPATH
+    - /bin/cp style_programs.css $DEPLOYPATH

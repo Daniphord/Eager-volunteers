@@ -1,0 +1,318 @@
+.partner {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 72px 144px 144px 144px;
+}
+
+.partner__header {
+    line-height:96px;
+    color: #0077ff;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.partner__subsection {
+    display: grid;
+    grid-template-columns: 30% 70%;  
+}
+.partner__wall {
+    padding: 0 32px;
+}
+
+.partner__pic {
+    width: 100%;
+    padding: 64px 32px 32px 32px;
+}
+
+.partner__paragraph {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    line-height: 42px;
+    text-align:justify;
+    padding: 32px;
+}
+
+.partner__link-paragraph {
+    text-align: right;
+    font-size: 32px;
+    padding: 16px 32px;
+}
+
+.partner__link {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.partner__link--stepafrica {
+    color: rgb(240, 164, 0);
+}
+
+.partner__link--vivatanzania {
+    color: rgb(13, 158, 0);
+}
+
+.partner__link--siretvolunteers {
+    color: rgb(15, 29, 92);
+}
+
+.partner__link:hover {
+    color:#0077ff;
+}
+
+.partner__paragraph--stepafrica {
+    background-color: rgba(240, 164, 0, 0.884);
+}
+
+.partner__paragraph--vivatanzania {
+    background-color: rgba(13, 158, 0, 0.884);
+}
+
+.partner__paragraph--siretvolunteers {
+    background-color: rgb(15, 29, 92);
+    color: white;
+}
+
+/*Mobile-small - Mobile (less than 1023px)*/
+@media (max-width: 1023px) {
+    .partner {
+        display: grid;
+        grid-template-rows: 1fr;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding: 64px 16px 16px 16px;
+    }
+    
+    .partner__header {
+        line-height:48px;
+        color: #0077ff;
+        font-size: 38px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .partner__subsection {
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+
+    .partner__wall {
+        padding: 0;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .partner__pic {
+        width: 75%;
+        padding: 32px;
+    }
+    
+    .partner__paragraph {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 24px;
+        text-align:justify;
+        padding: 16px;
+    }
+    
+    .partner__link-paragraph {
+        text-align: center;
+        font-size: 32px;
+        padding: 16px 32px;
+    }
+    
+    .partner__link {
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .partner__link--stepafrica {
+        color: rgb(240, 164, 0);
+    }
+    
+    .partner__link--vivatanzania {
+        color: rgb(13, 158, 0);
+    }
+    
+    .partner__link:hover {
+        color:#0077ff;
+    }
+    
+    .partner__paragraph--stepafrica {
+        background-color: rgba(240, 164, 0, 0.884);
+    }
+    
+    .partner__paragraph--vivatanzania {
+        background-color: rgba(13, 158, 0, 0.884);
+    }
+
+    .partner__paragraph--siretvolunteers {
+        background-color: rgb(15, 29, 92);
+        color: white;
+    }
+}
+
+
+
+
+
+
+/*HD*/
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .partner {
+        display: grid;
+        grid-template-rows: 1fr;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding: 64px;
+    }
+    
+    .partner__header {
+        line-height:60px;
+        color: #0077ff;
+        font-size: 48px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .partner__subsection {
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+
+    .partner__wall {
+        padding: 0 32px;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .partner__pic {
+        width: 50%;
+        padding: 32px;
+    }
+    
+    .partner__paragraph {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        line-height: 32px;
+        text-align:justify;
+        padding: 32px;
+    }
+
+    .partner__paragraph--siretvolunteers {
+        background-color: rgb(15, 29, 92);
+        color: white;
+    }
+}
+
+/*2K-3K*/
+@media (min-width: 2560px) and (max-width: 3072px) {
+    .partner {
+        display: grid;
+        grid-template-rows: 1fr;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding: 64px;
+    }
+    
+    .partner__header {
+        line-height:80px;
+        color: #0077ff;
+        font-size: 72px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .partner__subsection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: #e9e9e95b;
+    }
+
+    .partner__wall {
+        padding: 0 144px;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .partner__pic {
+        width: 60%;
+        padding: 32px;
+    }
+    
+    .partner__paragraph {
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+        line-height: 60px;
+        text-align:justify;
+        padding: 32px;
+    }
+
+    .partner__paragraph--siretvolunteers {
+        background-color: rgb(15, 29, 92);
+        color: white;
+    }
+}
+
+/*4K*/
+@media (min-width: 3073px) {
+    .partner {
+        display: grid;
+        grid-template-rows: 1fr;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding: 128px;
+    }
+    
+    .partner__header {
+        line-height:128px;
+        color: #0077ff;
+        font-size: 104px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .partner__subsection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: #e9e9e95b;
+    }
+
+    .partner__wall {
+        padding: 0 144px;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .partner__pic {
+        width: 60%;
+        padding: 32px;
+    }
+    
+    .partner__paragraph {
+        color: rgb(0, 0, 0);
+        font-size: 42px;
+        line-height: 68px;
+        text-align:justify;
+        padding: 32px;
+    }
+
+    .partner__paragraph--siretvolunteers {
+        background-color: rgb(15, 29, 92);
+        color: white;
+    }
+}
