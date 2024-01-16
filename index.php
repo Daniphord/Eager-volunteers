@@ -52,7 +52,7 @@ We offer you a variety of projects, that you can engage in while volunteering wi
       <div class="left_hand"><img src="images/arrange_sec_img.jpg" id="first_sec_img"></div>
       
       <div class="right_hand">
-          <p>Everything is arranged prior to your arrival. We make sure that all the nessecery aspects of your placements are well arranged and entirely in place. We respond to all your queries befoe and after you have made the decision to come and volunteer with us. All we need from you is you to be open about what exactly you would like to accomplish, that will put us in a better place to serve you better. Among the things that we will be preparing for you before you arrive are; volunteering visa, airport pickups, accommodation, a placement project of your choice and so on. Also, during your volunteering course, we will be around 24/7 to make sure your time in both; the project and the accommodation area is unforgotable.
+          <p>Everything is arranged prior to your arrival. We make sure that all the nessecery aspects of your placements are well arranged and entirely in place. We respond to all your queries befoe and after you have made the decision to come and volunteer with us. All we need from you is you to be open about what exactly you would like to accomplish, that will put us in a better place to serve you better. Among the things that we will be preparing for you before you arrive are; volunteering visa, airport pickups, accommodation, a placement project of your choice and so on. Also, during your volunteering course, we will be around 24/7 to make sure your time in both; the project and the accommodation area is quite unforgotable.
           </p>
       </div>
       
