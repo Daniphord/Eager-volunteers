@@ -13,7 +13,7 @@
   </div>
 
   <div class="sections_pages">
-      <div class="top_title"><h2>Your journey begins here</h2></div>
+      <div class="top_title"><h2>Your journey begins here!</h2></div>
     
       <div class="top_info">
           <p> Volunteering is a great way to explore your life potentials while discovering the greatness of cultural diversities of the universe. Volunteering and internships are a great opportunity to learn about another country's cultural uniqueness while, at the same time, engaging in a humanitarian cause. You get to know the country in different ways and different perspectives than just being a tourist. You can help us support our local pertners in one (or more!) of the projects we support in the fields of education, social, health or women’s and youth empowerment and gain valuable work experience. You will experience first-hand what it means to be in a foreign country and gather exciting intercultural experiences that will be invaluable for your future life.
