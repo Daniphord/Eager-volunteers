@@ -1,416 +1,225 @@
+	*{  margin:0;
+	padding:0;
+	box-sizing:border-box; 
+	} 
 
-    html {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+	html, body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	border:none;
+	}
+	
+	h1, h2, h3, h4, p{
+	margin:0;
+	padding:0;
+	}
+        
+    body{
+    background:rgb(127, 127, 127);
+    background-image: url("../images/bckgimg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position:center; 
     }
-    
-    @media only screen and (max-width: 520px){
-    
-    .menudiv{
-    width:100%; 
-    height:auto;
-    text-align:center; 
-    background:#000;
-    position:relative;
-    display:none;
-    }
-                                    
-    .activepage {
-    line-height:15px;
-    width:25px; 
-    height:25px;
-    font-size:12px;
-    }      
-    
-    .header{
-    width:100%;
-    height:auto;
-    max-height:120px;
-    background:blue;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    padding:10px 0 10px;
-    }
-    
-    .main_title{
-    display:none !important;
-    }
+	
+	
+	.main_wrapper{
+	width:100%;
+	margin:0 auto;
+	background:rgba(225,225,225, 0.8);
+
+	}
+	
+	.main_wrapper::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+
+	.header{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	align-content:center;
+	justify-content: space-around;
+	align-items:center;
+	height:150px;
+	/*background:rgb(77,77,77);*/
+	background:rgba(45,45,45,0.8);
+	margin: 0 auto;
+	position: relative;
+	}
+
+	.navbar{
+	height:100px;
+	/*background:rgba(45,45,45,0.8);*/
+	background:rgba(45,45,45,0.8);
+	overflow:hidden;
+	}   
+
+	.menu{
+	display:block;
+	width:100%; 
+	height:50px;
+	line-height:50px;
+	text-align:center; 
+	background:inherit;
+	position:relative;
+	background:none;
+	} 
+	
+	.menu a{
+	text-decoration:none;
+	margin-left:10px; 
+	margin-right:10px;
+	display:inline-block;
+	text-align: center;
+	font-family: Verdana, Arial, Tahoma, Serif;
+	padding:10px;
+	line-height:5px;
+	}
+	
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent;
+	padding:10px;
+	}
+	
+	.menubuttons:hover{
+	background:sandybrown;
+	padding:15px;
+	}
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+	
+	.menuactivebuttons:hover{
+	background:sandybrown;
+	color:rgb(245, 245, 245);
+	padding:15px;
+	}
+	
+	
+	.mobmenucontainer{
+	position: fixed;
+	top:0;
+	z-index:1000;
+	height: 55px;
+	width: 100%;
+	margin:0 auto;
+	background:sandybrown;
+	padding:5px;
+	display:none
+	}
+	
+	.main_title_mob{
+	background:sandybrown;
+	color:#000;
+	font-size:18px;
+	height:40px;
+	line-height:40px;
+	
+	}
+	
+	.mobmenu{
+	min-width:300px;
+	height:300px;
+	max-height:300px;
+	padding:5px;
+	font-size:12px;
+	line-height:20px;
+	margin-bottom:5px;
+	z-index:3500;
+	right: 0;
+	top:50px;
+	overflow-y: auto;
+	position: absolute;
+	background:burlywood;
+	}   
+	
+	.mobmenuitems{
+	width:80%;
+	height:30px;
+	display:block;
+	padding:5px;
+	font-size:12px;
+	line-height:20px;
+	margin: 0 auto;
+	margin-top:10px;
+	color:white;
+	text-decoration:none;
+	background:#666;
+	border-radius: 2px;
+	}
+	
+	.mobmenucontainer{
+	display: none;
+	} 
+				
+	.sec_navbar{
+	display:block;
+	width:100%; 
+	text-align:right; 
+	background:none;
+	position:relative;
+	padding:5px;
+	} 
+	
+	.sec_navbar a{
+	width:150px;
+	display:block;
+	display:inline-block;	
+	text-align: center;
+	font-style:italic;
+	font-weight:bold;
+	height:40px;
+	text-decoration:none;
+	padding:10px;
+	font-family:OCR A Std, monospace;
+	
+	}
+	
+	
+	.sec_navbar_menubtns{
+	font-size:14px;
+	text-decoration:none;
+	background:transparent;
+	color:aqua;
+	padding:10px;
+	}
+	
+	
+	.sec_navbar_menubtns:hover{
+	color:magenta;
+	padding:15px;
+	}
+
+	.sec_navbar_activebtns{
+	color:red;
+	padding:15px;
+	}
+	
+	.sec_navbar_activebtns:hover{
+	color:magenta;
+	padding:15px;
+	}
+ 
 
     #logoid{
-    width:80px;
-    height:80px;
-    display: block;
-    border:2px solid black;
-    border-radius:100px;
-    margin: 0 auto;
-    }
-    
-    .main_title_mob{
-    background:burlywood;
-    color:#000;
-    font-size:18px;
-    height:40px;
-    display:inline-block;
-    line-height:40px;
-    margin-right:0;
-    }
-    
-    .menumob{
-    width:80%;
-    height:30px;
-    display:block;
-    padding:5px;
-    font-size:12px;
-    line-height:20px;
-    margin: 0 auto;
-    margin-top:10px;
-    color:white;
-    text-decoration:none;
-    background:#666;
-    border-radius: 2px;
-    }
-
-    #mobmenu{
-    min-width:300px;
-    height:250px;
-    max-height:300px;
-    padding:5px;
-    font-size:12px;
-    line-height:20px;
-    margin-bottom:5px;
-    margin-top:5px;
-    z-index:3500;
-    right: 0;
-    overflow-y: auto;
-    position: absolute;
-    background:burlywood;
-    display:none;
-    }   
-
-    .mobmenucontainer{
-    position: relative;
-    height: 50px;
-    width: 100%;
-    background:burlywood;
-    padding:3px;
-    }
-    
-    #navbutton{
-    width:40px;
-    height:40px;
-    cursor: pointer;
-    display: inline-block;
-    border:2px solid black;
-    border-radius:100px;
-    position: relative;  
-    float: right;   
-    }
-    
-    #navbutton:hover{
-    width:45px;
-    height:45px;
-    }
-    
-    .mobmenu{
-    display:none;
-    }
-       
-    .activepage {
-    line-height:15px;
-    width:25px; 
-    height:25px;
-    font-size:12px;
-    }
-  } 
-    
-    
-    @media only screen and (min-width:521px) and (max-width:768px){
-    
-    /*[class*="col-"] {
-    width: 100%;
-    }  */  
-    
-    .header{
-    width:100%;
-    min-height:120px;
-    background:blue;
-    margin: 0 auto;
-    position: relative;
-    padding:10px;
-    }
-    
-    .menudiv{
-    display:block;
-    width:100%; 
-    height:auto;
-    text-align:center; 
-    background:#999;
-    position:relative;
-    }
-    
-    .activepage {
-    line-height:15px;
-    width:25px; 
-    height:25px;
-    font-size:12px;
-    }
-    
-    .menu{
-    text-decoration:none;
-    height:30px; 
-    width:80px;
-    line-height:30px; 
-    color:white;
-    display:inline-block;
-    font-size: 12px;
-    background:#999;
-    text-align: center;
-    }
-    
-    .lastmenuitem{
-    border-right: none;
-    }
-    
-    #logoid{
-    width:80px;
-    height:80px;
-    float: left;
-    display: inline-block;
-    border:2px solid black;
-    border-radius:100px;
-    margin-left: 1px;
-    }
-    
-    .main_title{
-    background:blue;
-    color:white;
-    font-size:30px;
-    height:70px;
-    line-height:50px;
-    margin-top:20px;
-    display:inline-block;
-    }
-    
-    .mobmenucontainer{
-    display: none;
-    }
-    
-    #navbutton{
-    width:40px;
-    height:40px;
-    display: inline-block;
-    border:2px solid black;
-    border-radius:100px;
-    position: relative;  
-    float: right;   
-    }
-    .mobmenu{
-    display:none;
-    }
-    
- }
-    
-    @media only screen and (min-width:769px) and (max-width:1024px){
-    
-    /*[class*="col-"] {
-    width: 100%;
-    }  */  
-    
-    .activepage {
-    line-height:15px;
-    width:25px; 
-    height:25px;
-    font-size:12px;
-    }
-    
-    .header{
-    width:100%;
-    min-height:150px;
-    background:blue;
-    margin: 0 auto;
-    position: relative;
-    padding:0;
-
-    }
-    
-    .menudiv{
-    width:100%; 
-    height:auto;
-    text-align:center; 
-    background:#999;
-    position:relative;
-    }                
-    
-    .menu{
-    text-decoration:none;
-    height:30px; 
-    width:80px;
-    line-height:30px; 
-    color:white;
-    display:inline-block;
-    font-size: 12px;
-    background:#999;
-    text-align: center;
-    }
-    
-    .lastmenuitem{
-    border-right: none;
-    }
-    
-    .mobmenucontainer{
-    display: none;
-    }
-    
-    #logoid{
-    width:110px;
-    height:110px;
-    float:left;
-    border:2px solid black;
-    border-radius:100px;
-    margin-right:20px;
-    margin-left:30px;
-    margin-top: 10px;
-    }
-    
-    .main_title{
-    background:blue;
-    color:white;
-    font-size:40px;
-    height:120px;
-    display:inline-block;
-    line-height:120px;
-    margin-right:0;
-    }
-    } 
-    
-    
-    @media only screen and (min-width:1025px) and (max-width:1200px){
-    
-    /*[class*="col-"] {
-    width: 100%;
-    }  */  
-    
-    .header{
-    width:100%;
-    min-height:150px;
-    background:blue;
-    margin: 0 auto;
-    position: relative;
-    padding:0;
-    }
-    
-    .menudiv{
-    width:100%; 
-    height:auto;
-    text-align:center; 
-    background:#999;
-    position:relative;
-    }                
-    
-    .menu{
-    text-decoration:none;
-    height:30px; 
-    width:100px;
-    line-height:30px; 
-    margin-left:20px; 
-    margin-right:20px;
-    font-size:14;
-    color:white;
-    display:inline-block;
-    background:#999;
-    text-align: center;
-    }
-    
-    .lastmenuitem{
-    border-right: none;
-    }
-    
-    .mobmenucontainer{
-    display: none;
-    }
-    
-    #logoid{
-    width:120px;
-    height:120px;
-    float:left;
-    border:2px solid black;
-    border-radius:100px;
-    margin-right:20px;
-    margin-left:30px;
-    margin-top: 10px;
-    }
-    
-    .main_title{
-    background:blue;
-    color:white;
-    font-size:50px;
+    width:130px;
     height:130px;
-    display:inline-block;
-    line-height:120px;
-    margin-right:0;
-    }
-    
-    }
-    
-    @media only screen and (min-width:1201px){
-    
-    /*[class*="col-"] {
-    width: 100%;
-    }  */  
-
-    .header{
-    width:100%;
-    min-height:170px;
-    background:rgb(77,77,77);
-    background:rgba(45,45,45,0.8);
-    margin: 0 auto;
-    position: relative;
-
-    }
-    
-    .menudiv{
-    width:100%; 
-    height:40px;
-    text-align:center; 
-    background:#333;
-    position:relative;
-    font-size:16px;
-    }   
-
-    .menu{
-    text-decoration:none;
-    height:40px; 
-    width:120px;
-    line-height:40px; 
-    margin-left:20px; 
-    margin-right:20px;
-    color:rgb(245, 245, 245);
-    display:inline-block;
-    background:#333;
-    text-align: center;
-    font-family: Verdana, Arial, Tahoma, Serif;
-    }
-
-    .lastmenuitem{
-    border-right: none;
-    }
-    
-    .mobmenucontainer{
-    display: none;
-    }
-    
-    #logoid{
+    border-radius: 100px; 
+	}
+	
+	#logoid:hover{
     width:150px;
     height:150px;
-    float:left;
-    border-radius: 100px;
-    margin-right:20px;
-    margin-left:60px;
-    margin-top: 30px;
     }
-    
+	
     .main_title{
     background:none;
     color:white;
@@ -419,129 +228,573 @@
     height:130px;
     display:inline-block;
     line-height:130px;
-    margin-right:0;
-    margin-left:50px;
     }
-    
-    
-    
-    .loggin_register{
-    width:100%; 
-    height:30px;
-    display:flex;
-    flex-flow: column wrap;
-    align-content: flex-start;
-    align-content: space-between;
-    text-align:center; 
-    background:rgb(225, 225,255);
-    position:relative;
-    padding-top:5px;
-    padding-bottom:5px;
-    
-    }    
+	
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*///////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MAX-WIDTH 350PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-    .loggin_menu_item{
-    text-decoration:none;
-    height:30px; 
-    width:120px;
-    line-height:30px; 
-    color:black;
-    display:inline-block;
-    background:inherit;
-    text-align: center;
-    } 
-    
-    .logout_link{
-    text-decoration:none;
-    height:30px; 
-    line-height:30px; 
-    color:white;
-    float:right;
-    display:inline;
-    background:inherit;
-    text-align: center;
-    position:relative;
-    margin-right:20px;
-    }
-    
-    
-    .greet_user{
-    height:auto; 
-    color:#000;
-    text-align: center;
-    position:relative;
-    margin-bottom:10px;
-    }
-    
-    .usergreeting{
-    display:block;   
-    height:30px; 
-    width:100%;
-    color:white;
-    background:inherit;
-   
-    }
-    
-    
-    .forgot_password{
-    background:inherit;
-    width:200px;
-    height:30px;
-    color:#333;
-    text-decoration:none;
-    line-height:30px;
-    font-style:italic;
-    
-    }
-    
+	
+	@media only screen and (max-width: 350px) {
 
-    .logginform{
-    height:auto; 
-    text-align:center; 
-    margin-right:20px;
-    }
-    
-    .logginform input[type=text]{
-    margin:none;
-    width:200px; 
-    height:30px; 
-    text-align:center; 
-    color:rgb(225, 225, 225);
-    background:white;
-    background:#777;
-    border:1px solid #777;
-    display:inline-block;
-    }
-    
-    .logginform input[type=password]{
-    margin:none;
-    width:200px; 
-    height:30px; 
-    text-align:center; 
-    color:rgb(225, 225, 225);
-    background:white;
-    background:#777;
-    border:1px solid #777;
-    display:inline-block;
-    }
+	.header{
+	display:none;
+	}
 
-    .logginform input[type=submit]{
-    width:100px; 
-    height:30px; 
-    text-align:center; 
-    background:silver;
-    cursor:pointer;
-    border: 1px solid silver;
-    display:inline-block;
-    }  
-    
-    
-    
-    } 
-    
-    
-    
-    
-                          
-    
-    
+	.menu{
+	display:none;
+	} 
+	
+	#mobmenu{
+	display:none;
+	}
+
+	.mobmenucontainer{
+	position:relative;
+	display:grid;
+	grid-template-columns: 20% 50% 20%;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	grid-column-gap:10px;
+	padding:5px;	
+	}		
+
+	.main_title_mob{
+	font-size:13px;
+	height:40px;
+	line-height:40px;
+	justify-self:right;
+	text-align:right;
+	} 
+
+	#navbutton{
+	width:40px;
+	height:40px;
+	cursor: pointer;
+	position: relative;
+    justify-self: right;
+	}
+
+	#mob_menu_logo{
+	width:80px;
+	height:40px;
+	border:1px solid black;
+	border-radius:5px;
+	margin-bottom:5px;
+	}
+	
+	
+}
+
+
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MAX-WIDTH 500PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	
+	@media only screen and (max-width: 500px) and (min-width: 350px) {
+
+	.header{
+	display:none;
+	}
+
+	.navbar{
+	height:50px;
+	width:100%;
+	}   
+
+	.menu{
+	display:none;
+	} 
+
+	/*MOBILE MENU CSS*/	
+	.mobmenucontainer{
+	position:relative;
+	display:grid;
+	grid-template-columns: 20% 60% 20%;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	grid-column-gap:20px;	
+	}	
+
+	.main_title_mob{
+	font-size:17px;
+	height:40px;
+	line-height:40px;
+	justify-self: right;
+	}
+
+
+	#mobmenu{
+	display:none;
+	}   
+
+	#navbutton{
+	width:40px;
+	height:40px;
+	cursor: pointer;
+	position: relative;
+    justify-self: left;
+	}
+
+	#mob_menu_logo{
+	width:90px;
+	height:40px;
+	border:1px solid black;
+	border-radius:5px;
+	margin-left:20px;
+	margin-bottom:5px;
+
+	}
+	.mobmenu{
+	display:none;
+	} 
+	
+	/*END MOBILE MENU CSS*/
+	
+	.menudiv a:hover{
+	color:darkblue;
+	background:aqua;
+	padding:10px;
+	}
+
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent;
+	padding:10px;
+	}
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+
+
+	#logoid{
+	width:130px;
+	height:130px;
+	border-radius: 100px; 
+	}
+
+	#logoid:hover{
+	width:150px;
+	height:150px;
+	}
+
+	.main_title{
+	font-size:60px;
+	height:130px;
+	line-height:130px;
+	}
+	
+}
+
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MIN-WIDTH 500PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	@media only screen and (min-width: 500px) {
+
+	.main_wrapper{
+	max-width:80%;
+
+	}
+
+	.header{
+	display:none;
+	}
+	
+
+	.menu{
+	display:none;
+	} 
+	
+	/*MOBILE MENU CSS*/	
+	
+	.mobmenucontainer{
+	display:grid;
+	grid-template-columns: 20% 60% 20%;
+	justify-content:center;
+	align-items:center;
+	justify-items:auto;
+	align-content:center;
+	grid-column-gap:20px;	
+	max-width:80%;
+	}			
+
+	.main_title_mob{
+	font-size:18px;
+	height:40px;
+	line-height:40px;
+	justify-self: center;
+
+	}
+
+	.mobmenuitems{
+	height:30px;
+	display:block;
+	padding:5px;
+	font-size:12px;
+	line-height:20px;
+	}
+
+	#mobmenu{
+	display:none;
+	}   
+
+	#navbutton{
+	width:40px;
+	height:40px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;  
+	float: right;   
+	}
+
+	#navbutton:hover{
+	width:45px;
+	height:45px;
+	}
+	
+	#mob_menu_logo{
+	width:100px;
+	height:40px;
+	border:1px solid black;
+	border-radius:5px;
+	margin-left:40px;
+	}
+
+
+	.mobmenu{
+	display:none;
+	} 
+
+	/*END MOBILE MENU CSS*/
+	
+
+	.menudiv a:hover{
+	color:darkblue;
+	background:aqua;
+	padding:10px;
+	}
+
+
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent;
+	padding:10px;
+	}
+
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+
+	.lastmenuitem{
+	border-right: none;
+	}
+
+	#logoid{
+	width:130px;
+	height:130px;
+	border-radius: 100px; 
+	}
+
+	#logoid:hover{
+	width:150px;
+	height:150px;
+	}
+
+	.main_title{
+	font-size:60px;
+	height:130px;
+	line-height:130px;
+	}
+	
+}
+
+
+
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MIN-WIDTH 768PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	@media only screen and (min-width: 768px) {
+
+	.main_wrapper{
+	max-width:90%;
+	}
+
+	.header{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	gap:10px;
+	}
+	
+	.sticky{
+	position:fixed;
+	top:0;
+	width:90%;
+	z-index:1000;
+	margin:0 auto;
+	height:50px;
+	padding-bottom:30px;
+	background:inherit;
+	}
+	
+
+	.menu{
+	display:block;
+	} 
+	
+	.menu a{
+	width:100px;
+	font-size:14px;
+	padding:10px;
+	line-height:5px;
+	}
+
+	/*MOBILE MENU CSS*/	
+	
+	.mobmenucontainer{
+	display:none;
+	}			
+
+	#mobmenu{
+	display:none;
+	}   
+
+	.mobmenu{
+	display:none;
+	} 
+
+	/*END MOBILE MENU CSS*/
+	
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent;
+	padding:10px;
+	}
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+
+	#logoid{
+	width:100px;
+	height:100px;
+	border-radius: 100px; 
+	}
+
+	#logoid:hover{
+	width:110px;
+	height:110px;
+	}
+
+	.main_title{
+	font-size:50px;
+	height:100px;
+	line-height:100px;
+	}
+	
+}
+
+
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MIN-WIDTH 992PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	@media only screen and (min-width: 992px) {
+
+	.main_wrapper{
+	max-width:90%;
+	}
+	
+	.inner_wrapper{
+	width:90%;
+	margin:0 auto;
+	}
+
+	.header{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-content: space-evenly;
+	align-items: center
+	}
+	
+	.sticky{
+	position:fixed;
+	top:0;
+	width:81%;
+	z-index:1000;
+	margin:0 auto;
+	height:50px;
+	padding-bottom:30px;
+	background:inherit;
+	
+	}
+	
+	.menu{
+	display:block;
+	} 
+		
+	.menu a{
+	width:100px;
+	font-size:14px;
+	padding:10px;
+	line-height:5px;
+	}
+
+	/*MOBILE MENU CSS*/	
+	
+	.mobmenucontainer{
+	display:none;
+	}		
+
+	#mobmenu{
+	display:none;
+	}   
+
+	
+	.mobmenu{
+	display:none;
+	} 
+
+	/*END MOBILE MENU CSS*/
+	
+
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent
+	padding:10px;
+	}
+
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+
+	#logoid{
+	width:120px;
+	height:120px;
+	border-radius: 100px; 
+	}
+
+	#logoid:hover{
+	width:130px;
+	height:130px;
+	}
+
+	.main_title{
+	font-size:50px;
+	height:130px;
+	line-height:120px;
+	}
+	
+}
+
+
+
+
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////// START HEADER MEDIAQUERIES - MIN-WIDTH 1200PX  ///////////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	@media only screen and (min-width: 1200px) {
+
+	.main_wrapper{
+	max-width:80%;
+	background:rgba(225,225,225, 0.8);
+	}
+	
+	.inner_wrapper{
+	width:80%;
+	margin:0 auto;
+	}
+
+	.header{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-content: space-evenly;
+	align-items: center
+	}
+
+	.menu{
+	display:block;
+	} 
+		
+	.menu a{
+	width:110px;
+	font-size:16px;
+	text-decoration:none;
+	margin-left:10px; 
+	margin-right:10px;
+	display:inline-block;
+	text-align: center;
+	font-family: Verdana, Arial, Tahoma, Serif;
+	padding:10px;
+	line-height:5px;
+	}
+
+	.sticky{
+	width:64%;
+	height:50px;
+	padding-bottom:30px;
+	background:inherit;
+	}
+	
+	/*MOBILE MENU CSS*/	
+	
+	.mobmenucontainer{
+	display:none;
+	}		
+
+	#mobmenu{
+	display:none;
+	}   
+
+	
+	.mobmenu{
+	display:none;
+	} 
+
+	/*END MOBILE MENU CSS*/
+	
+	.menubuttons{
+	color:rgb(245, 245, 245);
+	background:transparent
+	padding:10px;
+	}
+
+	.menuactivebuttons{
+	color:red;
+	padding:10px;
+	}
+
+	#logoid{
+	width:120px;
+	height:120px;
+	border-radius: 100px; 
+	}
+
+	#logoid:hover{
+	width:130px;
+	height:130px;
+	}
+
+	.main_title{
+	font-size:50px;
+	height:130px;
+	line-height:120px;
+	}
+	
+}

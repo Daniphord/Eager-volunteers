@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.eagervolunteers.com/</title>
+  <link>https://www.eagervolunteers.com/</link>
+
+<item>
+     <link>https://www.eagervolunteers.com/</link>
+     <title>Home</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/index.php</link>
+     <title>Home</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/accommodation.php</link>
+     <title>Accommodation</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/programs.php</link>
+     <title>Programs</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/safaris.php</link>
+     <title>Safaris</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/prices.php</link>
+     <title>Prices</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.eagervolunteers.com/contacts.php</link>
+     <title>Contacts</title>
+     <description>Charity Non-Profit Organisation in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

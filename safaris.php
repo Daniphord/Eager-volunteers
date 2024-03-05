@@ -1,55 +1,41 @@
 <?php $page = "Safaris"; ?>
 <?php include('./includes/header.php'); ?>
 
+<?php include('./includes/navbar.php'); ?>
+
 <div class="maindiv">
-    
-  <div class="sections_pages">
-      <div class="top_title"><h2>We offer a variety of options</h2></div>
+
+  <div class="innerpage_sections">
+      <div class="top_title2"><h2>TANZANIA UNFORGOTABLE!</h2></div>
       
       <div class="top_info">
-          <p>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.” actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”</p>
+          <p>Tanzania is one of the most beuatiful tourists' destinations. It is a home for the most unique African wild animals, this includes but not limited to the "BIG FIVE!". Also it is the Home of Kilimanjaro, the world's second highest mountain while also being the Africa's top highest mountain. According to <a href=" https://en.wikipedia.org/wiki/Mount_Kilimanjaro" target="blank">Wikipedia</a> Mount Kilimanjaro is a dormant volcano located in Kilimanjaro Region of Tanzania. It has three volcanic cones: Kibo, Mawenzi, and Shira. It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world: 5,895 m above sea level and about 4,900 m above its plateau base. Tanzania receives an avarage of 1454920 tourists each year <a href="https://www.worlddata.info/africa/tanzania/tourism.php#:~:text=Tourism%20in%20Tanzania,the%20world%20in%20absolute%20terms." target="blank">World data info</a>, which makes it one of the bigest tourism destinations in the world. Ngorongoro Creater and all other historical sites signify the uniqueness of Tanzania National parks. By volunteering with us, you get the advantage of getting budget National park safaris, Beach safaris as well as Mountain treks trips</p>
       </div>
-      <div class="bottom_info"><img src="images/eagervols_sec1_image.jpg" class="page_secs_imgs"></div>
+      <div class="bottom_info"><img src="images/beach_img2.jpg" class="page_secs_imgs"></div>
 
       
   </div>
-  <div class="sections_pages">
-      <div class="top_title"><h2>We deeply consider your choices!</h2></div>
+  <div class="innerpage_sections">
+      <div class="top_title2"><h2>NATIONAL PARK TRIPS</h2></div>
       
-        <div class="top_info">
-          <p>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”</p>
+ <div class="top_info">
+          <p>National park safaris are a great for those who want to...</p>
       </div>
+      <div class="bottom_info"><img src="images/beach_img2.jpg" class="page_secs_imgs"></div>
       
-    <div class="bottom_info"><img src="images/first_sec_img.jpg" class="page_secs_imgs"></div> 
-        
-
-    
     </div>
-    <div class="sections_pages">
-      <div class="top_title"><h2>No worries we arrange it for you</h2></div>
+	
+    <div class="innerpage_sections">
+      <div class="top_title2"><h2>MOUNTAIN TREKS</h2></div>
       
     <div class="top_info">
-          <p>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”</p>
+          <p>Also we have this option of accommodating our volunteers through our partner organization, either way you will still be fine. No option that is better than the other in terms of security and comfortabilty of the house, the only deffirence will be accommodation prices</p>
       </div>  
       
     <div class="bottom_info"><img src="images/arrange_sec_img.jpg" class="page_secs_imgs"></div>
-      
-
-
+   
 </div>
 
-<div class="sections_pages">
-<div class="top_title"><h2>Yes! There is free time too!</h2></div>
-
-<div class="top_info">
-<p>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”</p>
-</div>
-
-<div class="bottom_info"><img src="images/eagervols_se4_img.jpg" class="page_secs_imgs"></div>
-
-
-
-</div>
 
 </div>
 <?php include_once('./includes/footer.php'); ?>

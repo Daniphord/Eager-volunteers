@@ -1,0 +1,595 @@
+ html {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width: 520px){
+    
+    .menudiv{
+    width:100%; 
+    height:auto;
+    text-align:center; 
+    background:#000;
+    position:relative;
+    display:none;
+    }
+                                    
+    .activepage {
+    line-height:15px;
+    width:25px; 
+    height:25px;
+    font-size:12px;
+    }      
+    
+    .header{
+    width:100%;
+    height:auto;
+    max-height:120px;
+    background:blue;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding:10px 0 10px;
+    }
+    
+    .main_title{
+    display:none !important;
+    }
+
+    #logoid{
+    width:80px;
+    height:80px;
+    display: block;
+    border:2px solid black;
+    border-radius:100px;
+    margin: 0 auto;
+    }
+    
+    .main_title_mob{
+    background:burlywood;
+    color:#000;
+    font-size:18px;
+    height:40px;
+    display:inline-block;
+    line-height:40px;
+    margin-right:0;
+    }
+    
+    .menumob{
+    width:80%;
+    height:30px;
+    display:block;
+    padding:5px;
+    font-size:12px;
+    line-height:20px;
+    margin: 0 auto;
+    margin-top:10px;
+    color:white;
+    text-decoration:none;
+    background:#666;
+    border-radius: 2px;
+    }
+
+    #mobmenu{
+    min-width:300px;
+    height:250px;
+    max-height:300px;
+    padding:5px;
+    font-size:12px;
+    line-height:20px;
+    margin-bottom:5px;
+    margin-top:5px;
+    z-index:3500;
+    right: 0;
+    overflow-y: auto;
+    position: absolute;
+    background:burlywood;
+    display:none;
+    }   
+
+    .mobmenucontainer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background:burlywood;
+    padding:3px;
+    }
+    
+    #navbutton{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    display: inline-block;
+    border:2px solid black;
+    border-radius:100px;
+    position: relative;  
+    float: right;   
+    }
+    
+    #navbutton:hover{
+    width:45px;
+    height:45px;
+    }
+    
+    .mobmenu{
+    display:none;
+    }
+       
+    .activepage {
+    line-height:15px;
+    width:25px; 
+    height:25px;
+    font-size:12px;
+    }
+  } 
+    
+    
+    @media only screen and (min-width:521px) and (max-width:768px){
+    
+    /*[class*="col-"] {
+    width: 100%;
+    }  */  
+    
+    .header{
+    width:100%;
+    min-height:120px;
+    background:blue;
+    margin: 0 auto;
+    position: relative;
+    padding:10px;
+    }
+    
+    .menudiv{
+    width:100%; 
+    height:50px;
+    text-align:center; 
+    background:#333;
+    position:relative;
+    font-size:16px;
+    }   
+
+    .menudiv a{
+    text-decoration:none;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+	padding:10px;
+    margin-right:20px;
+    color:rgb(245, 245, 245);
+    display:inline-block;
+    background:#999;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+	
+	.menuactivebuttons {
+    text-decoration:none;
+    padding:10px;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+    margin-right:20px;
+    color:red;
+    display:inline-block;
+	 background:yellow;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+    
+    .lastmenuitem{
+    border-right: none;
+    }
+    
+    #logoid{
+    width:80px;
+    height:80px;
+    float: left;
+    display: inline-block;
+    border:2px solid black;
+    border-radius:100px;
+    margin-left: 1px;
+    }
+    
+    .main_title{
+    background:blue;
+    color:white;
+    font-size:30px;
+    height:70px;
+    line-height:50px;
+    margin-top:20px;
+    display:inline-block;
+    }
+    
+    .mobmenucontainer{
+    display: none;
+    }
+    
+    #navbutton{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border:2px solid black;
+    border-radius:100px;
+    position: relative;  
+    float: right;   
+    }
+    .mobmenu{
+    display:none;
+    }
+    
+ }
+    
+    @media only screen and (min-width:769px) and (max-width:1024px){
+    
+    /*[class*="col-"] {
+    width: 100%;
+    }  */  
+        
+    .header{
+    width:100%;
+    min-height:150px;
+    background:blue;
+    margin: 0 auto;
+    position: relative;
+    padding:0;
+
+    }
+    
+    .menudiv{
+    width:100%; 
+    height:50px;
+    text-align:center; 
+    background:#333;
+    position:relative;
+    font-size:16px;
+    }   
+
+    .menudiv a{
+    text-decoration:none;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+	padding:10px;
+    margin-right:20px;
+    color:rgb(245, 245, 245);
+    display:inline-block;
+    background:#999;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+	
+	.menuactivebuttons {
+    text-decoration:none;
+    padding:10px;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+    margin-right:20px;
+    color:red;
+    display:inline-block;
+	 background:yellow;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+    
+    .lastmenuitem{
+    border-right: none;
+    }
+    
+    .mobmenucontainer{
+    display: none;
+    }
+    
+    #logoid{
+    width:110px;
+    height:110px;
+    float:left;
+    border:2px solid black;
+    border-radius:100px;
+    margin-right:20px;
+    margin-left:30px;
+    margin-top: 10px;
+    }
+    
+    .main_title{
+    background:blue;
+    color:white;
+    font-size:40px;
+    height:120px;
+    display:inline-block;
+    line-height:120px;
+    margin-right:0;
+    }
+    } 
+    
+    
+    @media only screen and (min-width:1025px) and (max-width:1200px){
+    
+    /*[class*="col-"] {
+    width: 100%;
+    }  */  
+    
+    .header{
+    width:100%;
+    min-height:150px;
+    background:blue;
+    margin: 0 auto;
+    position: relative;
+    padding:0;
+    }
+    
+    .menudiv{
+    width:100%; 
+    height:50px;
+    text-align:center; 
+    background:#333;
+    position:relative;
+    font-size:16px;
+    }   
+
+    .menudiv a{
+    text-decoration:none;
+    height:40px; 
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+	padding:10px;
+    margin-right:20px;
+    color:rgb(245, 245, 245);
+    display:inline-block;
+    background:#999;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+	
+	.menuactivebuttons {
+    text-decoration:none;
+    padding:10px;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+    margin-right:20px;
+    color:red;
+    display:inline-block;
+	 background:yellow;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+    
+    .lastmenuitem{
+    border-right: none;
+    }
+    
+    .mobmenucontainer{
+    display: none;
+    }
+    
+    #logoid{
+    width:120px;
+    height:120px;
+    float:left;
+    border:2px solid black;
+    border-radius:100px;
+    margin-right:20px;
+    margin-left:30px;
+    margin-top: 10px;
+    }
+    
+    .main_title{
+    background:blue;
+    color:white;
+    font-size:50px;
+    height:130px;
+    display:inline-block;
+    line-height:120px;
+    margin-right:0;
+    }
+    
+    }
+    
+    @media only screen and (min-width:1201px){
+    
+    /*[class*="col-"] {
+    width: 100%;
+    }  */  
+
+    .header{
+    width:100%;
+    min-height:170px;
+    background:rgb(77,77,77);
+    background:rgba(45,45,45,0.8);
+    margin: 0 auto;
+    position: relative;
+
+    }
+    
+    .menudiv{
+    width:100%; 
+    height:50px;
+    text-align:center; 
+    background:#333;
+    position:relative;
+    font-size:16px;
+    }   
+
+    .menudiv a{
+    text-decoration:none;
+    height:40px; 
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+	padding:10px;
+    margin-right:20px;
+    color:rgb(245, 245, 245);
+    display:inline-block;
+    background:#999;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+	
+	.menuactivebuttons {
+    text-decoration:none;
+    padding:10px;
+    width:120px;
+    line-height:20px; 
+    margin-left:20px; 
+    margin-right:20px;
+    color:red;
+    display:inline-block;
+	 background:yellow;
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    }
+
+    .lastmenuitem{
+    border-right: none;
+    }
+    
+    .mobmenucontainer{
+    display: none;
+    }
+    
+    #logoid{
+    width:150px;
+    height:150px;
+    float:left;
+    border-radius: 100px;
+    margin-right:20px;
+    margin-left:60px;
+    margin-top: 30px;
+    }
+    
+    .main_title{
+    background:none;
+    color:white;
+    font-size:60px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height:130px;
+    display:inline-block;
+    line-height:130px;
+    margin-right:0;
+    margin-left:50px;
+    }
+        
+    
+    .loggin_register{
+    width:100%; 
+    height:30px;
+    display:flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    align-content: space-between;
+    text-align:center; 
+    background:rgb(225, 225,255);
+    position:relative;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    }    
+
+    .loggin_menu_item{
+    text-decoration:none;
+    height:30px; 
+    width:120px;
+    line-height:30px; 
+    color:black;
+    display:inline-block;
+    background:inherit;
+    text-align: center;
+    } 
+    
+    .logout_link{
+    text-decoration:none;
+    height:30px; 
+    line-height:30px; 
+    color:white;
+    float:right;
+    display:inline;
+    background:inherit;
+    text-align: center;
+    position:relative;
+    margin-right:20px;
+    }
+    
+    
+    .greet_user{
+    height:auto; 
+    color:#000;
+    text-align: center;
+    position:relative;
+    margin-bottom:10px;
+    }
+    
+    .usergreeting{
+    display:block;   
+    height:30px; 
+    width:100%;
+    color:white;
+    background:inherit;
+   
+    }
+    
+    
+    .forgot_password{
+    background:inherit;
+    width:200px;
+    height:30px;
+    color:#333;
+    text-decoration:none;
+    line-height:30px;
+    font-style:italic;
+    
+    }
+    
+
+    .logginform{
+    height:auto; 
+    text-align:center; 
+    margin-right:20px;
+    }
+    
+    .logginform input[type=text]{
+    margin:none;
+    width:200px; 
+    height:30px; 
+    text-align:center; 
+    color:rgb(225, 225, 225);
+    background:white;
+    background:#777;
+    border:1px solid #777;
+    display:inline-block;
+    }
+    
+    .logginform input[type=password]{
+    margin:none;
+    width:200px; 
+    height:30px; 
+    text-align:center; 
+    color:rgb(225, 225, 225);
+    background:white;
+    background:#777;
+    border:1px solid #777;
+    display:inline-block;
+    }
+
+    .logginform input[type=submit]{
+    width:100px; 
+    height:30px; 
+    text-align:center; 
+    background:silver;
+    cursor:pointer;
+    border: 1px solid silver;
+    display:inline-block;
+    }  
+    
+    
+    
+    } 
+    
+    
+    
+    
+                          
+    
+    
