@@ -3,7 +3,9 @@
 <?php include('./includes/header.php'); ?>
 
 
-<?php include('./includes/navbar.php'); ?>
+<?php include('./includes/mobile_navbar.php'); ?>
+<?php include('./includes/main_navbar.php'); ?>
+<?php include('./includes/secondary_navbar.php'); ?>
 
 
 <div class="maindiv">
@@ -19,7 +21,7 @@
       
   </div>
   <div class="innerpage_sections">
-      <div class="top_title"><h2>The arrangement</h2></div>
+      <div class="top_title"><h2>Accommodation Arrangement</h2></div>
       
         <div class="top_info">
           <p> You are given your own room that is lockable so you don't have to worry about your stuff being lost and for the family to make sure that your privacy is respected. You get a single bed, a table and a light. In some cases you have a private toilet, but in some cases you share the toilet with the rest of the family. The family provides you with breakfast and dinner. During meals you sit together with the family and eat together.The time for the meals is shared with you when you sign up, so you know exactly when to expect your breakfast and dinner. When you sign up there is an agreement as well, that talks about time to be home.</p>

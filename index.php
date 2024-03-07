@@ -2,14 +2,16 @@
 
 <?php include('./includes/header.php'); ?>
 
-<?php include('./includes/navbar.php'); ?>
+<?php include('./includes/mobile_navbar.php'); ?>
+<?php include('./includes/main_navbar.php'); ?>
+<?php include('./includes/secondary_navbar.php'); ?>
 
 
 <div class="main_container">
     
 <div class="hero-image">
   <div class="hero-text">
-    <h1 id="heroimage_title">Could you lend a helping hand?</h1>
+    <h2 id="heroimage_title">Could you lend a helping hand?</h2>
     <p>Someone, somewhere, deeds you today!</p><br>
     <a href="contacts.php"><button>decide</button></a>
 	
@@ -18,7 +20,7 @@
   </div>
 
   <div class="innerpage_sections">
-      <div class="top_title"><h2>Your journey begins here!</h2></div>
+      <div class="top_title"><h2>Why Volunteering?</h2></div>
     
       <div class="top_info">
           <p> Volunteering in a foreign country is a great way to explore your life potentials while discovering the greatness of cultural diversities of the universe. Volunteering and internships are a great opportunity to learn about another country's cultural uniqueness while, at the same time, engaging in a humanitarian cause. You get to know the country in different ways and different perspectives than just being a tourist. You can help us support our local pertners in one (or more!) of the projects we support in the fields of education, social, health or women’s and youth empowerment and gain a substantial work experience. You will experience first-hand what it means to be in a foreign country and gather exciting intercultural experiences that will be invaluable for your future life.
@@ -33,7 +35,7 @@
   
  
 <div class="innerpage_sections_articles">
-      <div class="top_title"><h2>We arrange it all for you</h2></div>
+      <div class="top_title"><h2>Placement Arrangement</h2></div>
 	  <div class="left_hand"><img src="images/arrange_img2.jpg" class="first_sec_img"></div> 
       
       <div class="right_hand">
@@ -46,7 +48,7 @@
 </div>
 
 <div class="innerpage_sections_articles">
-	<div class="top_title"><h2>Yes! You will have days off</h2></div>
+	<div class="top_title"><h2>Volunteer flexibility</h2></div>
 
 		
 				<div class="left_hand"><img src="images/arrange_img1.jpg" class="first_sec_img"></div>
@@ -60,7 +62,7 @@
 </div>
 
  <div class="innerpage_sections_articles">
-       <div class="top_title"><h2>Your choices are a priority</h2></div>
+       <div class="top_title"><h2>You have a choice</h2></div>
 	   
       
 	<div class="left_hand"><img src="images/eagervols_se4_img.jpg" class="first_sec_img"></div>

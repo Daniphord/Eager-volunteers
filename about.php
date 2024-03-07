@@ -2,7 +2,9 @@
 
 <?php include('./includes/header.php'); ?>
 
-<?php include('./includes/navbar.php'); ?>
+<?php include('./includes/mobile_navbar.php'); ?>
+<?php include('./includes/main_navbar.php'); ?>
+<?php include('./includes/secondary_navbar.php'); ?>
 
 <div class="maindiv">
 
@@ -41,7 +43,7 @@
 </div>
 
 <div class="innerpage_sections">
-      <div class="top_title"><h2>Placement Programs</h2></div>
+      <div class="top_title"><h2>Programs</h2></div>
       
     <div class="top_info">
           <p>Our volunteer placement is divided into categories according to their respective <a href="programs.php">programs</a>. We have the Childcare program, Education Program, Health Program, Women's Empowerment program, Youth Empowerment program and the Enviromental Conservation Program.<a href="programs.php">read more about the programs here</a></p>

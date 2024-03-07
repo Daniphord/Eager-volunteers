@@ -1,7 +1,9 @@
 <?php $page = "Safaris"; ?>
 <?php include('./includes/header.php'); ?>
 
-<?php include('./includes/navbar.php'); ?>
+<?php include('./includes/mobile_navbar.php'); ?>
+<?php include('./includes/main_navbar.php'); ?>
+<?php include('./includes/secondary_navbar.php'); ?>
 
 <div class="maindiv">
 
