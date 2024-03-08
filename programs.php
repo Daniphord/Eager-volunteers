@@ -1,4 +1,17 @@
-<?php $page = "Programs"; ?>
+<?php
+
+$page_title = "Our_Volunteer_Placement_Programs"; 
+$meta_description = "Our Volunteer Programs: Childcare, Primary School Teaching, Women's Empowerment, Youth's Empowerment, Enviromental Conservation, Construction.";
+$meta_keywords = "childcare, remedial classes, primary school teaching, Teaching English, women empowerment, teacher's assistant";
+$meta_property_og_title = "Eager Volunteers Programs page";
+$meta_property_og_description = "Our Volunteer Programs: Childcare, Primary School Teaching, Women's Empowerment, Youth's Empowerment, Enviromental Conservation, Construction.";
+$meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
+
+?>
+
+
+
+
 <?php include('./includes/header.php'); ?>
 
 <?php include('./includes/mobile_navbar.php'); ?>

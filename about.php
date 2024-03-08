@@ -1,5 +1,13 @@
-<?php $page = "Accommodation"; ?>
+<?php
 
+$page_title = "Eager_Volunteers_About_Us"; 
+$meta_description = "We give our Volunteers, unforgotalbe experiences during their volunteer work at Eager Volunters.";
+$meta_keywords = "volunteer experience, nice volunteer placement, flexible volunteer placement, community support, local food, homestay, community work, volunteer opportunity, volunteer work";
+$meta_property_og_title = "Eager Volunteers About page";
+$meta_property_og_description = "We give our Volunteers, unforgotalbe experiences during their volunteer work at Eager Volunters.";
+$meta_property_og_url = "https://www.eagervolunteers.com/about.php";
+
+?>
 <?php include('./includes/header.php'); ?>
 
 <?php include('./includes/mobile_navbar.php'); ?>

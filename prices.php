@@ -1,4 +1,16 @@
-<?php $page = "Prices"; ?>
+<?php
+
+$page_title = "Our_Affordable_Volunteer_Placement_Prices"; 
+$meta_description = "Our Volunteer Programs is one of the cheapest options, one can get in Tanzania, book a volunteer placement with us";
+$meta_keywords = "affordable volunteer opportunities, cheap accommodation, budget volunteering, cheap volunteer placement";
+$meta_property_og_title = "Eager Volunteers Programs page";
+$meta_property_og_description = "Our Volunteer Programs is one of the cheapest options, one can get in Tanzania, book a volunteer placement with us";
+$meta_property_og_url = "https://www.eagervolunteers.com/prices.php";
+
+?>
+
+
+
 <?php include('./includes/header.php'); ?>
 
 <?php include('./includes/mobile_navbar.php'); ?>
@@ -25,7 +37,7 @@
   <div class="price_sec_wrapper">
   
 	<div class="innerpage_sections">
-      <div class="top_title"><h3> Registration fees: 150€ </h3></div>
+      <div class="top_title"><h3> Registration fees: 120€ </h3></div>
       
        <div class="top_info">
           <p> This is paid two weeks before the date of your arrival. Registration fees cover the following; all preparation activities prior to your arrival, airport pick up when you come, airport drop off when you leave, placement orientation, town tour, sim card registratin and all the necessary preparatory activities. We need to receive your registration fees two weeks before the day of your arrival so that we are able start processing your placement by confirming to your volunteer project and to your Host family. By paying this fee at the mentioned time is a confirmation of you are placement that you are actually coming to do the desired volunteer work with us. </p>
@@ -33,7 +45,7 @@
           
     </div>
 	<div class="innerpage_sections">
-		<div class="top_title"><h3> Program fees 120€ a week </h3></div>
+		<div class="top_title"><h3> Program fees 150€ a week </h3></div>
 
 		<div class="top_info">
 		<p> This fee covers your accommodation, breakfast and dinner 5 days a week. We expect volunteers to have food of their own choice on the weekend which they cover the cost themselves. The fee is paid when you have arrived and settled. You can also pay this fee before you enter the country. It is always advised to make the payment befere or at the start of your stay. Because it makes sence that the host family would need money to organize your stay, so buy doing it sooner it gives us the opportunity to sort out with the host family early to avoid any incovieniences.We expect you to have prepared for it long before. So the earlier the better. All payments are made in Euros, local currency is accepted if that is the only option available to the volunteer. We can always discuss there is any issues about finances or other related topics. </p>

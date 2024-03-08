@@ -1,4 +1,13 @@
-<?php $page = "Accommodation"; ?>
+<?php
+
+$page_title = "Our_Volunteer_Accommodation_Options"; 
+$meta_description = "Our Host-family Accommodation, gives you a safe and peaceful Home from home. You closely experience local people's cultural and traditional proctices.";
+$meta_keywords = "Volunteer Host family, Local food, Safe volunteer accommodation, dinner and breakfast";
+$meta_property_og_title = "Eager Volunteers Accommodation page";
+$meta_property_og_description = "Our Host-family Accommodation, gives you a safe and peaceful Home from home. You closely experience local people's cultural and traditional proctices.";
+$meta_property_og_url = "https://www.eagervolunteers.com/accommodation.php";
+
+?>
 
 <?php include('./includes/header.php'); ?>
 
