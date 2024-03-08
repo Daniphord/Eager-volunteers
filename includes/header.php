@@ -1,6 +1,6 @@
 <!DOCTYE html>
 <?php include('session.php'); ?>
-<html>
+<html lang="en">
 <head>
 <title><?php echo $page_title ?></title>  
 <meta charset="UTF-8">

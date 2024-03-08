@@ -1,8 +1,8 @@
 <?php 
 
-$page_title = "Come_And_Volunteer_With_Us"; 
-$meta_description = "Volunteer Organisation, Non-Profit charity in East Africa. We support women, children and youth in Tanzania.";
-$meta_keywords = "charity, volunteer placement, volunteering, community support,accommodation, community work, volunteer opportunity, volunteer work";
+$page_title = "Volunteer Opportunity in Tanzania | Eager Volunteers"; 
+$meta_description = "Eager Volunteers, is a Volunteer Organisation in Tanzania, Non-Profit charity in East Africa. We support women, children and youth in Tanzania.";
+$meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";
 $meta_property_og_title = "Eager Volunteers Home page";
 $meta_property_og_description = "Charity  in Tanzania, Africa. We support to women, children and youth in Tanzania. Main goal is to give them a better life now and in the future.";
 $meta_property_og_url = "https://www.eagervolunteers.com/index.php";

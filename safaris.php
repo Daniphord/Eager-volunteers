@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "Affordable_Volunteer_Safaris"; 
+$page_title = "Affordable Safaris | Eager Volunteers"; 
 $meta_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
 $meta_keywords = "affordable safaris, cheap accommodation, budget safaris, cheap volunteer placement";
 $meta_property_og_title = "Eager Volunteers Safaris page";

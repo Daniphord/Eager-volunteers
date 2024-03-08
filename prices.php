@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "Our_Affordable_Volunteer_Placement_Prices"; 
+$page_title = "Affordable Volunteer Placement Prices | Eager Volunteers"; 
 $meta_description = "Our Volunteer Programs is one of the cheapest options, one can get in Tanzania, book a volunteer placement with us";
 $meta_keywords = "affordable volunteer opportunities, cheap accommodation, budget volunteering, cheap volunteer placement";
 $meta_property_og_title = "Eager Volunteers Programs page";

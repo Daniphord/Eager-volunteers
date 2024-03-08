@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "Contact_Us_For_Volunteer_Placement"; 
+$page_title = "Contact us for a Volunteer Placement | Eager Volunteers"; 
 $meta_description = "Please contact us so we can organize you an unforgotable volunteer opportunity, We are here to help you step by step along the way";
 $meta_keywords = "connect, contact, email";
 $meta_property_og_title = "Eager Volunteers Contacts page";
