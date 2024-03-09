@@ -3,9 +3,9 @@
 <!-- MOBILE NAVIGATION HTML -->
 
 <div class="mobmenucontainer">
-<img src="images/eager-volus_mob_log.jpg" id="mob_menu_logo"/>
+<img src="images/eager-volus_mob_log.jpg" id="mob_menu_logo" alt="eager_volunteers_mobile_logo"/>
 <h2 class='main_title_mob'>EAGER VOLUNTEERS</h2> 
-<img src="images/mob_nav_icon.png" id="navbutton" onClick="showMenu()"/>
+<img src="images/mob_nav_icon.png" id="navbutton" alt="mobile_navbar_button" onClick="showMenu()"/>
 
 	<div class="mobmenu" id="mobmenu">
 	<a class="mobmenuitems" href="index.php">HOME</a> 

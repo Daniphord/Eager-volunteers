@@ -1,5 +1,5 @@
 <?php
-
+$cononical_value = "https://eagervolunteers.com/programs.php";
 $page_title = "Volunteer Programs in Arusha  Tanzania | Eager volunteers"; 
 $meta_description = "Volunteer Programs: Childcare, Primary School Teaching, Women's Empowerment, Youth's Empowerment, Enviromental Conservation, Construction.";
 $meta_keywords = "childcare, remedial classes, primary school teaching, Teaching English, women empowerment, teacher's assistant";
@@ -29,7 +29,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	
 	</div>
 
-	<div class="bottom_info"><img src="images/programs_img1.jpg" class="page_secs_imgs"></div>
+	<div class="bottom_info"><img src="images/programs_img1.jpg" class="page_secs_imgs"  alt="childcare_program_volunteer"></div>
 
 	</div>
 
@@ -40,7 +40,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<div class="top_info">
 	<p>We empower women through Twiga Vision's Women's Empwoerment Program. With this program, women are empowered by being provided with: business education, general health education and specific health education for women and children, basic legal education as well as providing them with handcraft skills that can help them run their families. Sometimes, we even provide them with small business capitals as a grant. Due to the fact that women carry the most responsibilities of looking after their families, we have come to a conclusion that supporting women is an inevitable obligation. Therefore our need for volunteers to support women is based on the forementioned fact. As a volunteer you can engage in one or more of the above tasks. We always put your prefrence first. All we need is just to know what it is that you prefer.<a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#primaryteaching" class="program_back_link">Read on</a></p>
 	</div>
-	<div class="bottom_info"><img src="images/programs_img2.jpg" class="page_secs_imgs"></div>
+	<div class="bottom_info"><img src="images/programs_img2.jpg" class="page_secs_imgs" alt="women's_business_training_eager_volunteers"></div>
 
 	</div>
 
@@ -52,7 +52,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#healthcare" class="program_back_link">Read on</a></p>
 	</div>
 
-	<div class="bottom_info"><img src="images/programs_img3.jpg" class="page_secs_imgs"></div> 
+	<div class="bottom_info"><img src="images/programs_img3.jpg" class="page_secs_imgs" alt="primary_school_teaching_volunteer"></div> 
 
 	</div>
 
@@ -64,7 +64,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#youthempowerment" class="program_back_link">Read on</a></p>
 	</div>  
 
-	<div class="bottom_info"><img src="images/programs_img4.jpg" class="page_secs_imgs"></div>
+	<div class="bottom_info"><img src="images/programs_img4.jpg" class="page_secs_imgs" alt="health_training_volunteers></div>
 
 	</div>
 
@@ -75,7 +75,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<div class="top_info">
 	<p>We, together with our partner organizations, provide the youths with life skills education through workshops and normal training sessions. Young people are given the chance to express themselves and share their life experiences while being directed to a right path to follow in their lives. With this kind of training, they get to learn the following; effective communication, time management, problem solving, team work and collaboration, empath and compassion, organisational skills and continuous learning. Also they are provided with basic business running skills. <a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#environment" class="program_back_link">Read on</a></p>
 	</div>
-	<div class="bottom_info"><img src="images/programs_img5.jpg" class="page_secs_imgs"></div>
+	<div class="bottom_info"><img src="images/programs_img5.jpg" class="page_secs_imgs" alt="Youth_empowerment_program_eager_volunteers"></div>
 
 	</div>
 
@@ -85,7 +85,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<div class="top_info">
 	<p>With this program we have a small scale Enviromental Conservation Program and  a large scale Enviromental Conservation Program. With the small scale program we work with primary schools to train students on issues concerning the Enviroment. For example, global warming,   deforestation and reforestation, garbage management and the different kinds of air polution. You can work with the primary school pupils to do activities like tree planting, rain water haverst projects, gardening and garbage management projects. With the large scale program, this is when you go to a remote village, where there is real serious issues about Enviromental distruction and be required to train the villageers on how they can improve the situation. With this project we are looking for sponsors and donors who can facilitate the intiation of tree nurseries and start deforestation compaigns. If you are a serious enviromentalist and you are concerned about the protection of the enviroment you might want to engage in the large scale program and bring a real change. <a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#childcare" class="program_back_link">Scrol to the top</a></p>
 	</div>
-	<div class="bottom_info"><img src="images/programs_img6.jpg" class="page_secs_imgs"></div>
+	<div class="bottom_info"><img src="images/programs_img6.jpg" class="page_secs_imgs" alt="enviromental_conservation_program"></div>
 
 	</div>
 

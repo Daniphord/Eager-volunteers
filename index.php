@@ -1,5 +1,5 @@
 <?php 
-
+$cononical_value = "https://eagervolunteers.com/index.php";
 $page_title = "Volunteer Opportunity in Tanzania | Eager Volunteers"; 
 $meta_description = "Eager Volunteers, is a Volunteer Organisation in Tanzania, Non-Profit charity in East Africa. We support women, children and youth in Tanzania.";
 $meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";
@@ -46,7 +46,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/index.php";
  
 <div class="innerpage_sections_articles">
       <div class="top_title"><h2>Placement Arrangement</h2></div>
-	  <div class="left_hand"><img src="images/arrange_img2.jpg" class="first_sec_img"></div> 
+	  <div class="left_hand"><img src="images/arrange_img2.jpg" class="first_sec_img" alt="home_visits_by_volunteers" ></div> 
       
       <div class="right_hand">
           <p>Everything is arranged prior to your arrival. We make sure that all the nessecery aspects of your placement are well taken into account and entirely in place. We respond to all your queries befoe and after you have made the decision to come and volunteer with us. All we need from you is you to be open about what exactly you would like to accomplish, that will put us in a better place to serve you better. Among the things that we prepare for you before you arrive are; sort your volunteering <a href="https://tanzania-e-visas.com/tanzania-volunteer-visa/" target="blank">visa</a>, arrange your airport pickup, organize your accommodation, organize a placement project of your choice and so on. Also, during your volunteering course, we will be around 24/7 to make sure your time in both; the project and the accommodation area is well spent.
@@ -61,7 +61,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/index.php";
 	<div class="top_title"><h2>Volunteer flexibility</h2></div>
 
 		
-				<div class="left_hand"><img src="images/arrange_img1.jpg" class="first_sec_img"></div>
+				<div class="left_hand"><img src="images/arrange_img1.jpg" class="first_sec_img" alt="local_team_eager_volunteers"></div>
 
 				<div class="right_hand">
 				<p>When volunteering with us, flexibility matters! You definitely have freedom to take days off. There is a maximum number of days a volunteer can take day off in a month. We understand that you need time to be able to explore and enjoy your time in Tanzania. You have a lot of options when it comes to chosing what you should spend your free time on! You can visit a nearby waterfall, you can have a day trip to the big nearest national parks. You can spend a day at a well known coffee place, where you can use wi-fi communicating to your lived ones and all sort of choices!<a href="contacts.php"> please chose us</a></p>
@@ -75,7 +75,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/index.php";
        <div class="top_title"><h2>You have a choice</h2></div>
 	   
       
-	<div class="left_hand"><img src="images/eagervols_se4_img.jpg" class="first_sec_img"></div>
+	<div class="left_hand"><img src="images/eagervols_se4_img.jpg" class="first_sec_img" alt="childcare_program_at_khm"></div>
 		
       <div class="right_hand" id="programs">
           <p>With our volunteer program, we have a variety of placement areas where our volunteers can choose from, it is all up to you to decide which area you have interest in for volunteering, the choice is always yours. Even when you choose a program, it doen't mean you are completely bound to that program, you can always change program or deal with multiple programs at the same time, we are so flexible when it comes to volunteer's interests! Below is a list of all the placement programs we offer, click the links to learn more about each of them:<br></p>

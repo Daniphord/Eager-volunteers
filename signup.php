@@ -1,22 +1,14 @@
-<html>
+<?php
+$cononical_value = "https://eagervolunteers.com/signup.php";
+$page_title = "Affordable Safaris | Eager Volunteers"; 
+$meta_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
+$meta_keywords = "affordable safaris, cheap accommodation, budget safaris, cheap volunteer placement";
+$meta_property_og_title = "Eager Volunteers Safaris page";
+$meta_property_og_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
+$meta_property_og_url = "https://www.eagervolunteers.com/safaris.php";
 
-<head>
-<style>
+?>
 
-h1, h2, h3, h4, p{
-margin:0;
-padding:0;
-}
-
-</style>
-
-
-</head>
-
-
-</html>
-
-<?php $page = "Signup"; ?>
 <?php include('includes/header.php'); ?>
 
 
