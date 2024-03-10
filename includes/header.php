@@ -2,13 +2,25 @@
 <?php include('session.php'); ?>
 <html lang="en">
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPJFE7Z6XR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YPJFE7Z6XR');
+</script>
+
+
 <link rel="canonical" href="<?php echo $cononical_value ?>" />
 <title><?php echo $page_title ?></title>  
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="<?php echo $meta_description ?>">
-<meta name="keywords" content="<?php echo $meta_keywords ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="<?php echo $meta_description ?>" />
+<meta name="keywords" content="<?php echo $meta_keywords ?>" />
 <meta property="og:title" content="<?php echo $meta_property_og_title ?>" />
 <meta property="og:description" content="<?php echo $meta_property_og_description ?>" />
 <meta property="og:url" content="<?php echo $meta_property_og_url ?>" />
