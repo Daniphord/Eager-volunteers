@@ -1,11 +1,11 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/login.php";
-$page_title = "Login to our site to get more information"; 
-$meta_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
-$meta_keywords = "affordable safaris, cheap accommodation, budget safaris, cheap volunteer placement";
-$meta_property_og_title = "Eager Volunteers Safaris page";
-$meta_property_og_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
-$meta_property_og_url = "https://www.eagervolunteers.com/safaris.php";
+$cononical_value = "https://www.eagervolunteers.com/login.php";
+$page_title = "Login to our site to get more information about our programs"; 
+$meta_description = "Get connect with us so that we can exchange messages about your volunteer placement with us. Let's communicate";
+$meta_keywords = "Login, siginup, volunteers, safaris, cheap accommodation, budget safaris, cheap volunteer placement";
+$meta_property_og_title = "Eager Volunteers Login page";
+$meta_property_og_description = "Get connect with us so that we can exchange messages about your volunteer placement with us. Let's communicate";
+$meta_property_og_url = "https://www.eagervolunteers.com/login.php";
 
 ?>
 

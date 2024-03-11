@@ -1,5 +1,5 @@
 <?php 
-$cononical_value = "https://eagervolunteers.com/index.php";
+$cononical_value = "https://www.eagervolunteers.com/index.php";
 $page_title = "Volunteer Opportunity in Tanzania | Eager Volunteers"; 
 $meta_description = "Eager Volunteers, is a Volunteer Organisation in Tanzania, Non-Profit charity in East Africa. We support women, children and youth in Tanzania.";
 $meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";

@@ -1,8 +1,23 @@
-    <?php 
-    include ('../site_includes/connect.php');
-    include ('../site_includes/functions.php');
-    $page = 'create_new_pwd';
-    ?>
+<?php 
+	$cononical_value = "https://www.eagervolunteers.com/passwordReset/createnewpassword.php";
+	$page_title = "Create a New Password Here"; 
+	$meta_description = "If you have forgotten your password you can easily create a new one right here, It is important for you to regain access to your account.";
+	$meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";
+	$meta_property_og_title = "Eager Volunteers Createnewpassword page";
+	$meta_property_og_description = "If you have forgotten your password you can easily create a new one right here, It is important for you to regain access to your account.";
+	$meta_property_og_url = "https://www.eagervolunteers.com/passwordReset/createnewpassword.php";
+
+	include ('../site_includes/connect.php');
+	include ('../site_includes/functions.php');
+
+	include('./includes/header.php');
+
+	include('./includes/mobile_navbar.php'); 
+	include('./includes/main_navbar.php'); 
+	include('./includes/secondary_navbar.php');
+	
+?>
+	
     <!DOCTYPE html>
     
     <html>

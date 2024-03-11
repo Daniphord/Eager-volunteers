@@ -1,5 +1,5 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/programs.php";
+$cononical_value = "https://www.eagervolunteers.com/programs.php";
 $page_title = "Volunteer Programs in Arusha  Tanzania | Eager volunteers"; 
 $meta_description = "Volunteer Programs: Childcare, Primary School Teaching, Women's Empowerment, Youth's Empowerment, Enviromental Conservation, Construction.";
 $meta_keywords = "childcare, remedial classes, primary school teaching, Teaching English, women empowerment, teacher's assistant";

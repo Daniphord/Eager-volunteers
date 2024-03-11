@@ -1,5 +1,5 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/contacts.php";
+$cononical_value = "https://www.eagervolunteers.com/contacts.php";
 $page_title = "Contact us for a Volunteer Placement | Eager Volunteers"; 
 $meta_description = "Please contact us so we can organize you an unforgotable volunteer opportunity, We are here to help you step by step along the way";
 $meta_keywords = "connect, contact, email";

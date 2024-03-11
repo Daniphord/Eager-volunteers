@@ -1,5 +1,5 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/accommodation.php";
+$cononical_value = "https://www.eagervolunteers.com/accommodation.php";
 $page_title = "Volunteer Accommodation Host-family | Eager Volunteers"; 
 $meta_description = "Our Host-family Accommodation, gives you a safe and peaceful Home from home. You closely experience local people's cultural and traditional proctices.";
 $meta_keywords = "Volunteer Host family, Local food, Safe volunteer accommodation, dinner and breakfast";

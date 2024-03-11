@@ -1,5 +1,5 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/prices.php";
+$cononical_value = "https://www.eagervolunteers.com/prices.php";
 $page_title = "Affordable Volunteer Placement Prices | Eager Volunteers"; 
 $meta_description = "Our Volunteer Programs is one of the cheapest options, one can get in Tanzania, book a volunteer placement with us";
 $meta_keywords = "affordable volunteer opportunities, cheap accommodation, budget volunteering, cheap volunteer placement";

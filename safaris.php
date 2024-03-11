@@ -1,5 +1,5 @@
 <?php
-$cononical_value = "https://eagervolunteers.com/safaris.php";
+$cononical_value = "https://www.eagervolunteers.com/safaris.php";
 $page_title = "Affordable Safaris | Eager Volunteers"; 
 $meta_description = "When volunteering with us, you are also able to book an affordable trip to one of the greatest tourism sites.";
 $meta_keywords = "affordable safaris, cheap accommodation, budget safaris, cheap volunteer placement";

@@ -1,19 +1,25 @@
 <?php 
-include ('../site_includes/connect.php');
-include ('../site_includes/functions.php');
-$page = 'pwd_reset_page';
-?>
-<!DOCTYPE html>
+	$cononical_value = "https://www.eagervolunteers.com/passwordReset/passwordreset.php";
+	$page_title = "Reset your password to regain access to your account"; 
+	$meta_description = "If you are locked out of your account you have the change to reset your password her. It is important that you have access to your account.";
+	$meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";
+	$meta_property_og_title = "Eager Volunteers passwordreset page";
+	$meta_property_og_description = "If you are locked out of your account you have the change to reset your password her. It is important that you have access to your account.";
+	$meta_property_og_url = "https://www.eagervolunteers.com/passwordReset/passwordreset.php";
 
-<html>
-<head>
-    <title><?php echo $page;?> </title>      
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php 
-include ('../site_includes/head.php'); 
+	include ('../site_includes/connect.php');
+	include ('../site_includes/functions.php');
+
+	include('./includes/header.php');
+
+	include('./includes/mobile_navbar.php'); 
+	include('./includes/main_navbar.php'); 
+	include('./includes/secondary_navbar.php');
+	
 ?>
+
+
+<?php include ('../site_includes/head.php'); ?>
             
 
 </head>
