@@ -5,7 +5,7 @@
 	$meta_keywords = "charity, volunteer placement, volunteering in Tanzania, community support,accommodation, community work, volunteer opportunity, Tanzania volunteer work, Tanzania";
 	$meta_property_og_title = "Eager Volunteers passwordreset page";
 	$meta_property_og_description = "If you are locked out of your account you have the change to reset your password her. It is important that you have access to your account.";
-	$meta_property_og_url = "../passwordReset/passwordreset.php";
+	$meta_property_og_url = "passwordreset.php";
 
 	include ('./includes/connect.php');
 	include ('./includes/functions.php');
