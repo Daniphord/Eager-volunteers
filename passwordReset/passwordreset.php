@@ -10,11 +10,11 @@
 	include ('../site_includes/connect.php');
 	include ('../site_includes/functions.php');
 
-	include('./includes/header.php');
+	include('../includes/header.php');
 
-	include('./includes/mobile_navbar.php'); 
-	include('./includes/main_navbar.php'); 
-	include('./includes/secondary_navbar.php');
+	include('../includes/mobile_navbar.php'); 
+	include('../includes/main_navbar.php'); 
+	include('../includes/secondary_navbar.php');
 	
 ?>
 
