@@ -10,7 +10,7 @@
 	include ('https://www.eagervolunteers.com/includes/connect.php');
 	include ('https://www.eagervolunteers.com/site_includes/functions.php');
 
-	include('https://www.eagervolunteers.com//includes/header.php');
+	include('https://www.eagervolunteers.com/includes/header.php');
 
 	include('https://www.eagervolunteers.com/includes/mobile_navbar.php'); 
 	include('https://www.eagervolunteers.com/includes/main_navbar.php'); 
