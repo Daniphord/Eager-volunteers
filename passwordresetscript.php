@@ -1,8 +1,8 @@
 <?php 
-include ('../site_includes/connect.php');
-include ('../site_includes/functions.php');
+include ('./includes/connect.php');
+include ('./includes/functions.php');
 
-include ('site_includes/head.php'); 
+include ('./includes/head.php'); 
 
             
 if(isset($_POST['submit'])){
@@ -18,7 +18,7 @@ header("Location: passwordreset.php?reset=empty");
  $selector = bin2hex(random_bytes(8));
  $token = random_bytes(32);
  
- $url = "https://thedmcentralpoint.com/passwordReset/createnewpassword.php?selector=".$selector. "&token=".bin2hex($token);
+ $url = "https://www.eagervolunteers.com/createnewpassword.php?selector=".$selector. "&token=".bin2hex($token);
    
             
 $expires = date("U") + 800;
@@ -64,14 +64,14 @@ mysqli_close($connect);
 
 $to = $useremail;
 
-$subject = "Password Reset for The DM Central point";
+$subject = "Password Reset for Eager Volunteers Website";
 
 $message = '<p>You sent us a password reset request, the link to reset your password is below. If you didn\'t make this request then ignore this email</p>';
 $message .= '<p>Here is your password reset link.</p>';
 $message .= '<a href="'. $url .'">'. $url .'</a></p>';
 
-$headers = "From: The DM central Point <passwordreset@thedmcentralpoint.com>\r\n";
-$headers .= "Reply-To: passwordreset@thedmcentralpoint.com\r\n";
+$headers = "From: Eager Volunteers <pwdreset@eagervolunteers.com>\r\n";
+$headers .= "Reply-To: pwdreset@eagervolunteers.com\r\n";
 $headers .= "Content-type: text/html\r\n";
 
 

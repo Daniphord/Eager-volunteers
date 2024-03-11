@@ -45,7 +45,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/login.php";
                             ?>
                           				
                 				
-                		<h3  class="forgot_password" ><span ><a href="passwordReset/passwordreset.php">Forgot password?</a></span></h3>
+                		<h3  class="forgot_password" ><span ><a href="passwordreset.php">Forgot password?</a></span></h3>
                     </div>
             
            

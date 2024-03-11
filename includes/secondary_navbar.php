@@ -18,6 +18,10 @@ if($sec_menuLink == "login"){
 	
 	$contacts = 'sec_navbar_activebtns';
 	
+}else if($sec_menuLink == "passwordreset"){
+	
+	$login = 'sec_navbar_activebtns';
+	
 }
 
 ?>
