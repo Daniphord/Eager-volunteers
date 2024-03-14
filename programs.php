@@ -64,7 +64,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/programs.php";
 	<a href="index.php?#programs" class="program_back_link">Go back to the program list</a> or <a href="#youthempowerment" class="program_back_link">Read on</a></p>
 	</div>  
 
-	<div class="bottom_info"><img src="images/programs_img4.jpg" class="page_secs_imgs" alt="health_training_volunteers></div>
+	<div class="bottom_info"><img src="images/programs_img4.jpg" class="page_secs_imgs" alt="health_training_volunteers"></div>
 
 	</div>
 

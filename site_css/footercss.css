@@ -40,7 +40,7 @@
 	}
 
 	.whatsapp{
-	height: 50px;
+	height: 40px;
 	background:rgb(127, 127, 127);
 	background-image: url("../images/phone_social_icon.png");
 	background-size:contain ;
@@ -50,7 +50,7 @@
 	}
 
 	.facebook{
-	height: 50px;
+	height: 40px;
 	background:rgb(127, 127, 127);
 	background-image: url("../images/facebook_icon.png");
 	background-size:contain ;
@@ -60,7 +60,7 @@
 	}
 
 	.instagram{
-	height: 50px;
+	height: 40px;
 	background:rgb(127, 127, 127);
 	background-image: url("../images/instagram_icon.png");
 	background-size:contain ;
@@ -70,7 +70,7 @@
 	}
 
 	.youtube{
-	height: 50px;
+	height: 40px;
 	background:rgb(127, 127, 127);
 	background-image: url("../images/youtube_icon.png");
 	background-size:contain ;
@@ -79,14 +79,15 @@
 	background-position:center;
 	}
 
-	.twetter{
-	height: 50px;
+	.twitter{
+	height: 40px;
 	background:rgb(127, 127, 127);
-	background-image: url("../images/twitter_icon.png");
+	background-image: url("../images/twitter_x_new_logo.png");
 	background-size:contain ;
 	background-repeat: no-repeat ;
 	background-attachment: inherit;
 	background-position:center;  
+	border-radius:100px;
 	}      
 
 	.partner_sites{
@@ -273,7 +274,7 @@
 
 	}
 
-	.twetter{
+	.twitter{
 
 	}      
 
@@ -431,7 +432,7 @@ position: relative;
 
 	.footer_Social_media_section{
 	display:grid;
-	grid-template-columns:30% 30% 30%;
+	grid-template-columns:repeat(4, 1fr);
 	justify-content:center;
 	width:100%;
 	height: auto;
@@ -616,7 +617,7 @@ position: relative;
 
 	.footer_Social_media_section{
 	display:grid;
-	grid-template-columns:30% 30% 30%;
+	grid-template-columns:repeat(4, 1fr);
 	justify-content:center;
 	width:100%;
 	height: auto;

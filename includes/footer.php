@@ -41,8 +41,9 @@
                <a href="contacts.php"><div class="whatsapp"></div></a>
                <a href="https://www.facebook.com/Daniphord/" target="blank"><div class="facebook"></div></a>
                <!--<a href="whatsapp.php"><div class="instagram"></div></a> -->
-               <a href="https://www.youtube.com/@Eager_Volunteers_YTC" target="blank"><div class="youtube"></div></a>
-               <!--<a href="whatsapp.php"><div class="twetter"></div></a> -->
+               <a href="https://www.youtube.com/@Eager_Volunteers_YTC" target="blank"><div class="youtube"></div></a>			   
+			   <a href="https://twitter.com/EagerVolunteers" target="blank"><div class="twitter"></div></a>
+              
            </div>
 		   
 
