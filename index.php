@@ -95,7 +95,7 @@ $meta_property_og_url = "https://www.eagervolunteers.com/index.php";
 	<div class="top_info">
 	  <h3 class="sub_headings">5. You boost your self-esteem</h3>
 	      
-          <p>Accomplishment is a great way of boosting one's self-esteem. When you achieve a goal or an objective it makes realy feel lifted up.By engaging in a volunteer work in water your self-esteem and improve your overall mental health. These are just some of the benefits of volunteering there are som many more.<br></p>
+          <p>Accomplishment is a great way of boosting one's self-esteem. When you achieve a goal or an objective it makes realy feel lifted up.By engaging in a volunteer work in water your self-esteem and improve your overall mental health. These are just some of the benefits of volunteering, there are so many more.<br></p>
           
           
       </div>	  
